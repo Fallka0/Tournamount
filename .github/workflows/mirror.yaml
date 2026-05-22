@@ -12,4 +12,4 @@ jobs:
       - name: Push mirror
         run: |
           git config --local --unset-all http.https://github.com/.extraheader || true
-          git push "https://x-access-token:${{ secrets.ORG_MIRROR_TOKEN }}@github.com/Planary/Tournamount.git" --mirror
+          git push "https://x-access-token:${{ secrets.ORG_MIRROR_TOKEN }}@github.com/Planary/planary-tournament.git" --mirror
